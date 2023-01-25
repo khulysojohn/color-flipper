@@ -1,0 +1,17 @@
+.nav-center {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: cadetblue;
+}
+.container {
+    margin: auto;
+    background-color: antiquewhite;
+    width: 400px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+h4 {
+    color: white;
+}
