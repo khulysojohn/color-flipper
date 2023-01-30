@@ -19,4 +19,12 @@ btn.addEventListener("click",  () => {
 function getRandomNumber() {
   return Math.floor(Math.random() * colors.length);
 }
+
+function openNav(){
+  document.getElementById("mySidenav").style.width="240px";
+}
+
+function closeNav(){
+  document.getElementById("mySidenav").style.width="0";
+}
   

@@ -13,12 +13,15 @@
     <nav>
         <div class="nav-center">
             <h4>color flipper</h4>
-            <ul class="nav-links">
-                <li><a href="index.html">Random</a></li>
-                <li><a href="hex.html">Hex</a></li>
-                <li><a href="rgb.html">RGB</a></li>
-               
-            </ul>
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)"
+                class="closebutton"  onClick="closeNav()">&times;</a>
+                <a href="index.html">Random</a>
+                <a href="hex.html">Hex</a>
+                <a href="rgb.html">RBG</a>
+                 
+              </div> 
+              <span class="navlink"  onClick="openNav()">&#9776;</span>
         </div>
     </nav>
     <main>
