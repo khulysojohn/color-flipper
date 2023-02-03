@@ -12,23 +12,8 @@
     background-color: cadetblue;
     margin-bottom: 200px;
 }
- h2 {
-    background: #222;
-    color: #fff;
-    padding: 1rem;
-    height: 100px;
-    border-radius:0.25rem ;
-    margin-bottom: 2.5rem;
- }
 
-.container {
-    margin: auto;
-    background-color: antiquewhite;
-    width: 600px;
-    padding: 10px;
-    border-radius: 5px;
-    text-align: center;
-}
+
 
 h4 {
     color: white;
@@ -81,6 +66,28 @@ h4 {
     font-size:36px;
     margin-left:50px;
 }
+.container {
+    margin: auto;
+    background-color: antiquewhite;
+    width: 600px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+h2 {
+    background: #222;
+    color: #fff;
+    padding: 1rem;
+    height: 100px;
+    border-radius:0.25rem ;
+    margin-bottom: 2.5rem;
+ }
+
 .footer{
     text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color:cadetblue ;
 }
