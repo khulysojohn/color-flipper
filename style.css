@@ -94,6 +94,7 @@ h2 {
     background: transparent;
     color: #222;
     letter-spacing: 0.1rem;
+    width: 80%;
     display: inline-block;
     font-weight: 700;
     transition: 0.3s;
