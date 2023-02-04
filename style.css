@@ -116,3 +116,14 @@ h2 {
     width: 100%;
     background-color:cadetblue ;
 }
+
+code {
+    color: #f1f1f1;
+    font-size: 1rem;
+}
+
+@media (max-width: 480px) {
+    .container{
+        width: 100%;
+    }
+  }
