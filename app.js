@@ -84,14 +84,22 @@ function showSection(sectionId) {
   // Show the selected section
   document.getElementById(sectionId).style.display = 'block';
 }
+// Mobile menu functionality
 let menuIcon = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
 
+// Toggle menu on menu icon click
 menuIcon.onclick = () => {
-    menuIcon.classList.toggle('bx-x');
-    navbar.classList.toggle('active');
-   
-}
+  menuIcon.classList.toggle('bx-x');
+  navbar.classList.toggle('active');
+};
 
-let sections = document.querySelectorAll('section');
-let navLinks = document.querySelectorAll('header nav a');
+// Close the navbar when a link is clicked
+let navLinks = document.querySelectorAll('nav a');
+
+navLinks.forEach(link => {
+  link.addEventListener('click', () => {
+    menuIcon.classList.remove('bx-x');
+    navbar.classList.remove('active');
+  });
+});
